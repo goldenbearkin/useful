@@ -35,7 +35,7 @@ export function loginReducer(state: LoginStateT = null, action: Actions): LoginS
       };
 
     case ActionTypes.LOGIN_RESET:
-      return initialState;
+      return null;
 
     default:
       return state;
